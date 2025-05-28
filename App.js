@@ -37,14 +37,14 @@ export default function App() {
         placeholder='Digite seu peso'
         value={peso}
         onChangeText={(value) => setPeso(value)}
-        style={{ width: '80%', borderBottomWidth: 1, borderColor: '#581845', marginBottom: 30, color: '#581845' }}
+        style={{ height: 50, width: '80%', borderBottomWidth: 1, borderColor: '#581845', marginBottom: 30, color: '#581845', fontSize: 30 }}
       />
 
       <TextInput
         placeholder='Digite sua altura'
         value={altura}
         onChangeText={(value) => setAltura(value)}
-        style={{ width: '80%', borderBottomWidth: 1, borderColor: '#581845', marginBottom: 30, color: '#581845' }}
+        style={{ height: 50, width: '80%', borderBottomWidth: 1, borderColor: '#581845', marginBottom: 30, color: '#581845', fontSize: 30 }}
       />
 
       <Button title='Calcular IMC' onPress={calcImc} />
